@@ -1,0 +1,57 @@
+/* FormularioWhatsApp.css */
+.form-whatsapp {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
+
+.form-whatsapp input,
+.form-whatsapp textarea {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none;
+    transition: border 0.2s;
+}
+
+.form-whatsapp input:focus,
+.form-whatsapp textarea:focus {
+    border-color: #404241;
+    /* verde WhatsApp */
+}
+
+.form-whatsapp textarea {
+    resize: vertical;
+    min-height: 80px;
+}
+
+.form-whatsapp button {
+    padding: 12px;
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.form-whatsapp button:hover {
+    background-color: #454645;
+}
+
+@media (max-width: 500px) {
+    .form-whatsapp {
+        padding: 15px;
+        gap: 10px;
+    }
+}

@@ -1,0 +1,67 @@
+.footer {
+    background-color: #000;
+    color: #fff;
+    padding: 50px 20px 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 40px;
+}
+
+.footer-logo h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #00ff99;
+}
+
+.footer-logo p {
+    color: #ccc;
+    font-size: 14px;
+}
+
+.footer-links h3,
+.footer-contato h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #00ff99;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li {
+    margin: 6px 0;
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-links a:hover {
+    color: #00ff99;
+}
+
+.footer-contato p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #ccc;
+}
+
+.footer-copy {
+    text-align: center;
+    margin-top: 30px;
+    border-top: 1px solid #222;
+    padding-top: 15px;
+    font-size: 13px;
+    color: #888;
+}

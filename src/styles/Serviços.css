@@ -1,0 +1,35 @@
+.ConeteudoPageWorks {
+
+    text-align: center;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    margin-top: 5rem;
+    font-size: 64px;
+    padding: 2.5rem;
+    border-bottom: 1px solid black;
+}
+
+.TitlePageWorks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Whatworks {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    width: 100rem;
+    margin: 2rem;
+    color: white;
+}
+
+.Icon {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-size: 32px;
+    padding: 0rem 0rem 1rem;
+
+}
