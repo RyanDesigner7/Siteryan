@@ -33,3 +33,40 @@
     padding: 0rem 0rem 1rem;
 
 }
+
+@media screen and (max-width: 768px) {
+    .ConeteudoPageWorks {
+        flex-direction: column;
+        font-size: 28px;
+        /* reduzido para caber na tela */
+        margin-top: 2rem;
+        padding: 1.5rem;
+        border-bottom: 1px solid black;
+        text-align: center;
+    }
+
+    .TitlePageWorks {
+        flex-direction: column;
+        font-size: 24px;
+        margin-bottom: 1rem;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Whatworks {
+        display: grid;
+        grid-template-columns: 1fr;
+        /* muda de 2 colunas para 1 coluna */
+        gap: 1rem;
+        width: 100%;
+        /* ocupa 100% da tela */
+        margin: 1rem 0;
+    }
+
+    .Icon {
+        font-size: 24px;
+        /* reduz ícones para caber melhor */
+        padding-bottom: 0.5rem;
+        justify-content: flex-start;
+    }
+}

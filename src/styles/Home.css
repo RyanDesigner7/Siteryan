@@ -8,3 +8,27 @@
 .Line {
     border-bottom: 90deg black solid 10px;
 }
+
+@media screen and (max-width: 768px) {
+    .inf {
+        flex-direction: column;
+        /* empilha os elementos verticalmente */
+        width: 100%;
+        /* ocupa toda a largura da tela */
+        gap: 0.8rem;
+        /* reduz o espaçamento */
+        margin-top: 1.5rem;
+        /* menor espaçamento no topo */
+        padding: 0 1rem;
+        /* evita que fique colado nas bordas */
+    }
+
+    .Line {
+        border-bottom: 10px solid black;
+        /* mantém a linha, remove ângulo 90deg que não é válido */
+        width: 100%;
+        /* ocupa toda a largura do container */
+        margin: 1rem 0;
+        /* dá um pouco de espaço acima e abaixo */
+    }
+}

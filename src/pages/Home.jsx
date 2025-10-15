@@ -31,7 +31,7 @@ function App() {
             <MdLocationCity />
           </div>
           <div >
-            <h3 className="abouttitle"><span className="aboutsubtitle">Sobre</span> Mim</h3>
+            <h3 className="abouttitle"><span className="aboutsubtitle">Sobre</span> Nós</h3>
           </div>
         </div>
       </div>

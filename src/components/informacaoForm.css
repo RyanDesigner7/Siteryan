@@ -2,3 +2,16 @@
     width: 30rem;
     margin-top: 2rem;
 }
+
+@media screen and (max-width: 768px) {
+    .dica {
+        width: 100%;
+        /* ocupa toda a largura disponível */
+        max-width: 90%;
+        /* evita que fique colado nas bordas */
+        margin-top: 1rem;
+        /* reduz espaçamento superior */
+        padding: 0 1rem;
+        /* espaço interno nas laterais */
+    }
+}
