@@ -39,3 +39,31 @@
 .logomarca {
   width: 2rem;
 }
+
+@media screen and (max-width: 768px) {
+
+
+  .logo {
+    font-size: 1.2rem;
+    /* reduz tamanho da logo */
+  }
+
+  .logomarca {
+    width: 1.5rem;
+    /* reduz tamanho do ícone/marca */
+    height: auto;
+  }
+
+  .nav-links {
+    justify-content: center;
+    /* links ficam empilhados */
+    gap: 0.8rem;
+    /* menor espaçamento entre links */
+    width: 100%;
+  }
+
+  .nav-links li a {
+    font-size: 0.9rem;
+    /* reduz tamanho da fonte para mobile */
+  }
+}
