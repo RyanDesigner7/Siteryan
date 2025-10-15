@@ -11,7 +11,7 @@ function Navbar() {
 
       <h2 className="logo"><img className='logomarca' src={Logo} alt="" /></h2>
       <ul className="nav-links">
-        <li><a href="#abouttitle"> Home</a></li>
+        <li><a href="#App"> Home</a></li>
         <li><a href="#ConteudoPageHome"> Sobre</a></li>
         <li><a href="#ConeteudoPageWorks"> Serviços</a></li>
         <li><a href="#TitlePageOrça"> Contato</a></li>

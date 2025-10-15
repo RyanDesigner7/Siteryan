@@ -21,7 +21,7 @@ import Formacao from "../components/informacaoForm"; // caminho relativo correto
 function App() {
 
   return (
-    <div className="App">
+    <div className="App" id="App">
       <HeroSlider />
       <div id="ConteudoPageHome"></div>
       {/* SOBRE NOS */}
