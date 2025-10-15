@@ -67,6 +67,6 @@
         font-size: 24px;
         /* reduz ícones para caber melhor */
         padding-bottom: 0.5rem;
-        justify-content: flex-start;
+        justify-content: center;
     }
 }
